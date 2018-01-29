@@ -1,0 +1,108 @@
+.thumbnail {
+	overflow: hidden;
+	padding: 10px;
+}
+
+#episodes-latest .thumbnail-content {
+	height: 230px;
+}
+#animes-latest .thumbnail-content img {
+	height: 320px;
+}
+.thumbnail-title{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.thumbnail-info a {
+	width:100%
+}
+.anime-list {
+	padding-top:10px;
+}
+#anime-series{
+	list-style: none;
+	padding-left: 0px;
+}
+#episodes-container{
+	padding-top:30px;
+}
+.next-episodes{
+	text-align:center;
+}
+.block-container{
+	padding-top:15px;
+	padding-bottom: 15px;
+	text-align:center;
+	overflow: hidden;
+	width:100%
+}
+.block-container a{
+	display:inline-block;
+}
+.anime-preview {
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+footer {
+    background: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+}
+header img{
+	padding-bottom: 15px;
+	max-width: 100%;
+}
+body{
+	background: url('/img/background2.jpg') no-repeat #FFF;
+	background-position: left top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.panel{
+	background: rgba(255, 255, 255, 0.6);
+}
+.panel-body{
+	background: rgba(255, 255, 255, 0.6) !important;
+}
+a{
+	color:#a005ef;
+}
+a:hover{
+	color:#a005ef;
+}
+a:active{
+	color:#a005ef;
+}
+a:focus{
+	color:#a005ef;
+}
+.btn-primary{
+	background-color: #a005ef;
+	border-color: #8700D6;
+}
+.btn-primary.focus, .btn-primary:focus{
+	background-color: #a005ef;
+	border-color: #8700D6;
+}
+.btn-primary.hover, .btn-primary:hover{
+	background-color: #8700D6;
+}
+.btn-primary.active, .btn-primary:active{
+	background-color: #8700D6;
+}
+* {
+    border-radius: 0px !important;
+}
+button{
+	border: 1px solid #ddd;
+	box-shadow: none;
+	margin:1px;
+	border-radius: 0px;
+}
+#searchbutton{
+	height: 34px;
+}
